@@ -4,6 +4,16 @@ Minimal example of an `R` package LinkingTo the
 [stringdist](https://cran.r-project.org/?package=stringdist) `C` api.
 
 
+#### Installation
+
+You don't really need to install this package since you're not going to 
+use it for anything. The code can be obtained by cloning this repository.
+
+```bash
+git clone https://github.com/markvanderloo/linkstringdist
+```
+
+
 
 #### Notes.
 

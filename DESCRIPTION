@@ -1,0 +1,20 @@
+Package: linkstringdist
+Maintainer: Mark van der Loo <mark.vanderloo@gmail.com>
+License: GPL-3
+Title: Minimal Example Linking C Code from 'stringdist'
+LazyData: no
+Type: Package
+LazyLoad: yes
+Authors@R: c( person("Mark", "van der Loo", role=c("aut","cre"),email="mark.vanderloo@gmail.com"))
+Description: As of version 0.9.5.0, 'stringdist' C functions can be accessed
+    by other packages. This package serves as a minimal working example 
+    doing so.
+Version: 0.1.0
+Depends:
+    R (>= 2.15.3)
+Imports: stringdist (>= 0.9.5.0)
+LinkingTo: stringdist
+URL: https://github.com/markvanderloo/linkstringdist
+BugReports: https://github.com/markvanderloo/linkstringdist/issues
+Suggests: testthat
+RoxygenNote: 6.0.1

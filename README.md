@@ -44,7 +44,7 @@ This package also registers its single `C` routine for export. This is only
 necessary to avoid a `NOTE` when preparing a package for CRAN. I.E. the note
 only pops up when checking the package with the `--as-cran` flag.  So it is not
 necessary to add a file like
-`[R_RegisterNativeRoutines.c](src/R_RegisterNativeRoutines.c)` for local
+[R_RegisterNativeRoutines.c](./src/R_RegisterNativeRoutines.c) for local
 packages.
 
 

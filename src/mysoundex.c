@@ -1,5 +1,8 @@
 
+#include <R.h>
+#include <Rdefines.h>
 #include <stringdist_api.h>
+
 
 SEXP my_soundex(SEXP strings, SEXP useBytes){
   Rprintf("\nWow, using 'stringdist' soundex encoding, from my own C code!\n");
